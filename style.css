@@ -1,0 +1,127 @@
+body{
+	font-family:Georgia;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}
+.leal{
+	
+	font-family:Georgia;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}
+
+.respe{
+		
+	font-family:Cooper Black;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}
+
+.repo{
+	font-family:Castellar;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}
+
+
+h1{
+	font-size:36px;
+	margin-bottom:10 px;
+}
+
+
+.imagen img{
+	
+	
+	width:100%;
+	max-width:200px;
+	height:auto;
+}
+
+
+p{
+	font-size:20px;
+	margin:20px 0;
+	text-align:justify;
+}
+
+	
+header{	
+		background-color:white;
+		color:blue;
+		padding:20px;
+		text-align:center;
+}
+
+
+header nav ul{
+list-style-type:none;
+}
+
+
+header nav ul li{
+	display:inline;
+	margin:0 15px;
+}
+
+	
+header nav ul li a{
+	color:blue;
+	text-decoration:none;
+	font-size:18px;
+}
+
+
+heder nav ul li a:hover{
+	text-decoration;underline;
+}
+
+
+p{
+	font-family:Bodoni MT;
+}
+
+
+.prespe{
+	font-family:Cooper Black;
+}
+.respo{
+font-family:Castellar;	
+}
+
+
+
+footer{
+	font-size:30px;
+	font-family:Bodoni MT
+}
+.galeria{
+	display:flex;
+	flex-wrap:wrap;
+justify-content:center;
+margin:20px auto;
+max-width: 1200px;
+
+}
+
+.galeria img{
+	width: 300px;
+	height:200px;
+	object-fit: cover;
+	margin: 10px;
+	border-radius:10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	transition: transform 0.3s;
+}
+
+.galeria img:hover{
+	transform: scale(1.05);
+}
